@@ -20,8 +20,5 @@ class Trabalho {
         self.descricaoTrabalho = descricaoTrabalho
         self.numCurtidas = numCurtidas
         
-    }
-    
-    
-    
+    } 
 }
