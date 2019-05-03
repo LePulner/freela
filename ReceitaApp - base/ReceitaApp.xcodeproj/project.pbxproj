@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D99C3EFE227C7F5D007A412B /* Trabalho.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C3EFD227C7F5D007A412B /* Trabalho.swift */; };
+		D99C3F00227CBAC2007A412B /* ProjetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C3EFF227CBAC2007A412B /* ProjetoViewController.swift */; };
 		E845C703226F83590049CA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E845C702226F83590049CA4F /* AppDelegate.swift */; };
 		E845C705226F83590049CA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E845C704226F83590049CA4F /* ViewController.swift */; };
 		E845C708226F83590049CA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E845C706226F83590049CA4F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D99C3EFD227C7F5D007A412B /* Trabalho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trabalho.swift; sourceTree = "<group>"; };
+		D99C3EFF227CBAC2007A412B /* ProjetoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjetoViewController.swift; sourceTree = "<group>"; };
 		E845C6FF226F83590049CA4F /* ReceitaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceitaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E845C702226F83590049CA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E845C704226F83590049CA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		E845C701226F83590049CA4F /* ReceitaApp */ = {
 			isa = PBXGroup;
 			children = (
-				E845C702226F83590049CA4F /* AppDelegate.swift */,
-				E845C704226F83590049CA4F /* ViewController.swift */,
 				E845C706226F83590049CA4F /* Main.storyboard */,
+				E845C704226F83590049CA4F /* ViewController.swift */,
+				E845C702226F83590049CA4F /* AppDelegate.swift */,
+				D99C3EFF227CBAC2007A412B /* ProjetoViewController.swift */,
 				E845C709226F835C0049CA4F /* Assets.xcassets */,
 				E845C70B226F835C0049CA4F /* LaunchScreen.storyboard */,
 				E845C70E226F835C0049CA4F /* Info.plist */,
+				D99C3EFD227C7F5D007A412B /* Trabalho.swift */,
 			);
 			path = ReceitaApp;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99C3F00227CBAC2007A412B /* ProjetoViewController.swift in Sources */,
 				E845C705226F83590049CA4F /* ViewController.swift in Sources */,
+				D99C3EFE227C7F5D007A412B /* Trabalho.swift in Sources */,
 				E845C703226F83590049CA4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F684H454M9;
+				DEVELOPMENT_TEAM = QV9772R5PW;
 				INFOPLIST_FILE = ReceitaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F684H454M9;
+				DEVELOPMENT_TEAM = QV9772R5PW;
 				INFOPLIST_FILE = ReceitaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
